@@ -1,1 +1,0 @@
-section{margin-top:0;margin-bottom:0}.container{margin:0 auto}ul{list-style-type:none}.gallery{display:flex;flex-wrap:wrap;gap:24px}.gallery-item{width:calc((100% - 2 * 24px) / 3)}.gallery-image{display:block;height:100%;width:100%;object-fit:cover}
