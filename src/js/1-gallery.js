@@ -1,4 +1,4 @@
-import simplelightbox from "simplelightbox";
+import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 const images = [
@@ -72,4 +72,11 @@ const galleryMarkupEl = images
    .map((image) => `<li class="gallery-item"><a class="gallery-link" href="${image.original}"><img class="gallery-image" src="${image.preview}" alt="${image.description}"/></a></li>`)
    .join("");
 galleryEl.insertAdjacentHTML("afterbegin", galleryMarkupEl);
+
+
+const slGalleryOptions = {
+  captionDelay: 250,
+  captionsData: "alt",
+};
+let slGallery = new SimpleLightbox('.gallery a', slGalleryOptions);
 
