@@ -46,7 +46,25 @@ ul {
   color: #fff;
   font-style: bold;
 }
-
+.nav{
+  background-color: #A47864;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;;
+}
+.nav-link{
+  background-color: #3a2010;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  width: 68px;
+  text-align: center;
+  border: 1px solid;}
+  
+.nav-link:hover {
+  color: #A47864;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
